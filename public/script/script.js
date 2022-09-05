@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             let data = await response.text();
 
-            let outputDiv = event.target.parentElement.querySelector('.output');
+            let outputDiv = document.querySelector('.output');
             insertHTML(data, outputDiv);
 
         })
